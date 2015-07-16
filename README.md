@@ -1,7 +1,7 @@
 # What's `jekyll-book-theme`?
 
 It's another Jekyll static site generator theme for classic books
-(e.g. The Trial, Dr. Jekyll and Mr Hyde, A Tale of Two Cities, etc.)
+(e.g. Strange Case of Dr. Jekyll and Mr Hyde, A Tale of Two Cities, The Trial, etc.)
 that is, a ready-to-fork template pack.
 
 See a live demo @ [`drjekyllthemes.github.io/jekyll-book-theme` »](http://drjekyllthemes.github.io/jekyll-book-theme/)
@@ -23,7 +23,7 @@ For example:
 └── index.html                         # all-in-one page book template
 ```
 
-will result in:
+will result in an all-in-one book page:
 
 ```
 └── _site                                # output build folder; site gets generated here
