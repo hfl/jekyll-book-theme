@@ -40,7 +40,7 @@ will result in an all-in-one book page:
 Replace all text files in the `_chapters` folder with your own.
 
 
-### Step 2: Change the book title and author in the `_config.yml` file
+### Step 2: Add the book title and author in the `_config.yml` file
 
 Next change the book title and author in the `_config.yml` file:
 
