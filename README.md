@@ -33,6 +33,27 @@ will result in an all-in-one book page:
 ```
 
 
+## How-to Build Your Own Book
+
+### Step 1: Add your chapters to the `_chapters/` folder
+
+Replace all text files in the `_chapters` folder with your own.
+
+
+### Step 2: Change the book title and author in the `_config.yml` file
+
+Next change the book title and author in the `_config.yml` file:
+
+~~~
+title:  Strange Case of Dr. Jekyll and Mr. Hyde
+author:
+  name: Robert Louis Stevenson
+~~~
+
+with your own book title and author name. That's it. Happy reading.
+
+
+
 ## Example Classic
 
 ### Strange Case of Dr. Jekyll and Mr. Hyde
@@ -44,16 +65,23 @@ by Robert Louis Stevenson
 > discourse; backward in sentiment; lean, long, dusty, dreary, and
 > yet somehow lovable.
 
-- 01 // [Story of the Door](_chapters/01.md)
-- 02 // [Search for Mr. Hyde](_chapters/02.md)
-- 03 // [Dr. Jekyll was Quite at Ease](_chapters/03.md)
-- 04 // [The Carew Murder Case](_chapters/04.md)
-- 05 // [Incident of the Letter](_chapters/05.md)
-- 06 // [Remarkable Incident of Dr. Lanyon](_chapters/06.md)
-- 07 // [Incident at the Window](_chapters/07.md)
-- 08 // [The Last Night](_chapters/08.md)
-- 09 // [Dr. Lanyon's Narrative](_chapters/09.md)
-- 10 // [Henry Jekyll's Full Statement of the Case](_chapters/10.md)
+- [Story of the Door](#) - [(Source)](_chapters/01.md)
+- [Search for Mr. Hyde](#) - [(Source)](_chapters/02.md)
+- [Dr. Jekyll was Quite at Ease](#) - [(Source)](_chapters/03.md)
+- [The Carew Murder Case](#) - [(Source)](_chapters/04.md)
+- [Incident of the Letter](#) - [(Source)](_chapters/05.md)
+- [Remarkable Incident of Dr. Lanyon](#) - [(Source)](_chapters/06.md)
+- [Incident at the Window](#) - [(Source)](_chapters/07.md)
+- [The Last Night](#) - [(Source)](_chapters/08.md) 
+- [Dr. Lanyon's Narrative](#) - [(Source)](_chapters/09.md)
+- [Henry Jekyll's Full Statement of the Case](#) - [(Source)](_chapters/10.md)
+
+
+
+### More Free World Classics in Plain Text (.txt)
+
+- [worldclassics @ GitHub](https://github.com/worldclassics) - more ready-to-use free world (literature) classics e.g. The Trial by Franz Kafka, etc.
+- [Project Gutenberg](https://www.gutenberg.org) - the world's biggest free classics book library in plain text; more than 40,000+ books collected since 1971 
 
 
 

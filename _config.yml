@@ -15,6 +15,9 @@ collections:
 
 markdown: kramdown
 
+kramdown:
+  auto_ids: true
+
 sass:
   sass_dir: css
   style:    expanded
