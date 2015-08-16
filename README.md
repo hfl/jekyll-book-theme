@@ -30,9 +30,6 @@ will result in an all-in-one book page:
     └── index.html                       # all-in-one book page
 ```
 
-See a live demo @ [`drjekyllthemes.github.io/jekyll-book-theme` »](http://drjekyllthemes.github.io/jekyll-book-theme/)
-
-
 ## How-to Build Your Own Book
 
 ### Step 1: Add your chapters to the `_chapters/` folder
@@ -51,6 +48,19 @@ author:
 ~~~
 
 with your own book title and author name. That's it. Happy reading.
+
+### Live Demo
+
+See a live demo @ [`drjekyllthemes.github.io/jekyll-book-theme` »](http://drjekyllthemes.github.io/jekyll-book-theme/)
+
+
+### More Themes
+
+See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
+
+### More Quick Starter Wizard Scripts
+
+See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
 
 
 
