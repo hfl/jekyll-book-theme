@@ -2,7 +2,7 @@
 # site.title, site.author.name
 
 title:  Strange Case of Dr. Jekyll and Mr. Hyde
-baseurl: "jekyll-book-theme"
+baseurl: "/jekyll-book-theme"
 author:
   name: Robert Louis Stevenson
 
