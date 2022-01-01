@@ -1,14 +1,12 @@
 ---
-layout: default 
+layout: default
 ---
-
 <!-- cover -->
 
 World Classics Series
 
 <h1>{{ site.title }}</h1>
 <h3>by {{ site.author.name }}</h3>
-
 
 
 <!-- table of contents -->
@@ -19,7 +17,7 @@ Contents
 
 <ul>
 {% for chapter in site.chapters %}
-  <li>{{ chapter.title }}</li>
+  <li><a href="{{ chapter.url}}">{{ chapter.title }}</a></li>
 {% endfor %}
 </ul>
 
@@ -28,12 +26,8 @@ Contents
 
 <!-- chapters -->
 
-{% for chapter in site.chapters %}
-
 <div class='chapter'>
-  <h2>{{ chapter.title }}</h2>
+  <h2>{{ page.title }}</h2>
 
-  {{ chapter.content }}
+  {{ page.content }}
 </div>
-
-{% endfor %}
