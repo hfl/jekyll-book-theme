@@ -19,7 +19,7 @@ Contents
 
 <ul>
 {% for chapter in site.chapters %}
-  <li><a href="#{{ chapter.title | slugify }}">{{ chapter.title }}</a></li>
+  <li>{{ chapter.title }}</li>
 {% endfor %}
 </ul>
 
@@ -31,7 +31,7 @@ Contents
 {% for chapter in site.chapters %}
 
 <div class='chapter'>
-  <h2 id="{{ chapter.title | slugify }}">{{ chapter.title }}</h2>
+  <h2>{{ chapter.title }}</h2>
 
   {{ chapter.content }}
 </div>
